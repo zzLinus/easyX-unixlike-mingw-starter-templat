@@ -1,0 +1,3 @@
+[submodule "3rdparty/easyx"]
+	path = 3rdparty/easyx
+	url = git@github.com:zzLinus/easyxMirror.git
