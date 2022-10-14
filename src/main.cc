@@ -313,8 +313,7 @@ void judge(int map[ROW][COL], int row, int col)
         runing = 0;
         for (int i = 0; i < ROW; i++) {
             for (int k = 0; k < COL; k++) {
-                if (map[i][k] == 19) //踩雷
-                {
+                if (map[i][k] == 19) {
                     map[i][k] = -1;
                 }
             }
